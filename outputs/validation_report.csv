@@ -1,0 +1,23 @@
+Check,Actual Result,Expected Result,Status
+Duplicate vendor IDs,0,0,PASS
+Duplicate product IDs,0,0,PASS
+Duplicate purchase IDs,0,0,PASS
+Duplicate sales IDs,0,0,PASS
+Duplicate invoice IDs,0,0,PASS
+Purchases with unknown vendors,0,0,PASS
+Sales with unknown vendors,0,0,PASS
+Purchases with unknown products,0,0,PASS
+Sales with unknown products,0,0,PASS
+Invoices with unknown vendors,0,0,PASS
+Purchases with missing vendor or product IDs,0,0,PASS
+Sales with missing vendor or product IDs,0,0,PASS
+Products with missing prices,0,0,PASS
+Purchases with invalid quantities,0,0,PASS
+Sales with invalid quantities,0,0,PASS
+Products with non-positive prices,0,0,PASS
+Purchases with negative amounts,0,0,PASS
+Sales with negative amounts,0,0,PASS
+Invoices with negative freight,0,0,PASS
+Purchase amount calculation mismatches,0,0,PASS
+Sales amount calculation mismatches,0,0,PASS
+Vendor-product pairs with sales exceeding purchases,0,0,PASS
